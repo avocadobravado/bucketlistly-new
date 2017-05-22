@@ -1,0 +1,189 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  background-color: #c0c0c0;
+}
+
+.top {
+  background: url('../img/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+.search {
+  float: left;
+}
+
+.img-icon {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.search input {
+  background-color: rgba(255, 255, 255, .1);
+  padding: 10px;
+  color: #fff;
+  border: none;
+  width: 225px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, .6);
+  font-size: 15px;
+}
+
+.logo .fa {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-links a {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, .8);
+  padding: 12px;
+  float: left;
+}
+
+#nav-button1 {
+  border: 2px solid #fff;
+  padding: 8px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  float: right;
+  font-size: 14px;
+}
+
+.main-text {
+  clear: both;
+  text-align: center;
+}
+.main-text h2:first-of-type{
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+.title {
+  clear: both;
+  font-family: 'Oswald';
+  text-align: center;
+  font-size: 140px;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 160px;
+}
+
+.logo-yellow {
+  position: absolute;
+  top:20px;
+  left:48%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  background-color: #f0c529;
+  color: #000;
+  border-radius: 100%;
+}
+
+.yellow {
+  padding-top: 12px;
+  font-size: 30px;
+  transform: rotate(320deg);
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 20px 40px;
+  font-family: serif;
+}
+
+#top-story-button {
+  padding: 20px 30px;
+  background-color: inherit;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  font-size: 20px;
+  margin: 20px;
+  letter-spacing: 0.02em;
+  width: 317px;
+}
+
+#facebook-button {
+  padding: 23px 30px;
+  background-color: #3663b6;
+  color: white;
+  width: 317px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  margin: 20px;
+  letter-spacing: 0.02em;
+}
+
+.icons {
+  margin-top: 100px;
+}
+.icons hr {
+  width: 70%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  opacity: .3;
+}
+
+.icons img {
+  padding: 15px;
+  width: 10%;
+  opacity: .3;
+}
+
+img:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.icons p {
+  padding-top: 10px;
+  margin-bottom: 0;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  opacity: .3;
+}
+
+.area div {
+  display: inline-block;
+  margin: 0 auto;
+
+}
+.testimonials {
+
+  /*float: left;*/
+  text-align: center;
+  opacity: 0.3;
+}
+
+.testimonials img {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.3;
+}
