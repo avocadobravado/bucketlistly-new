@@ -170,20 +170,28 @@ img:hover{
   opacity: .3;
 }
 
-.area div {
-  display: inline-block;
-  margin: 0 auto;
-
-}
-.testimonials {
-
-  /*float: left;*/
+.area {
+  margin:auto;
   text-align: center;
-  opacity: 0.3;
+  position: relative;
+}
+
+.testimonials {
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
 }
 
 .testimonials img {
   display: block;
   margin: 0 auto;
+  opacity: 0.3;
+}
+
+.testimonials p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  text-align: center;
   opacity: 0.3;
 }
